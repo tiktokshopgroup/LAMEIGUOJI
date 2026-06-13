@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>拉美国际｜2026 拉美跨境电商课程官网｜三联图横幅替换版 V5</title>
+  <meta name="description" content="拉美国际 LAMEIGUOJI.TOP：TikTok Shop、Shopee、Mercado Livre 美客多、SHEIN、TEMU 跨境电商课程。企业内训与个人项目实战，顶部全屏图片横幅自动轮播。" />
+  <style>
+    :root{
+      --bg:#05111d;--bg2:#082235;--green:#0b5c36;--green2:#0d7b49;--gold:#d8aa55;--gold2:#f0d28a;--ink:#173322;--line:rgba(216,170,85,.34);--shadow:0 24px 60px rgba(0,0,0,.26);--max:1220px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;color:#fff;background:radial-gradient(circle at 12% 10%,rgba(10,124,74,.16),transparent 18%),radial-gradient(circle at 88% 12%,rgba(216,170,85,.14),transparent 18%),linear-gradient(135deg,#030d16,#081a2a 38%,#062116);overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.9),rgba(0,0,0,.15))}
+    .fx-canvas{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.48}
+    .mouse-glow{position:fixed;width:320px;height:320px;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none;z-index:0;filter:blur(28px);background:radial-gradient(circle,rgba(11,124,74,.18),rgba(216,170,85,.08) 48%,transparent 70%)}
+    .wrap{width:min(var(--max),calc(100% - 36px));margin:auto;position:relative;z-index:2}
+    .fullbleed{width:100vw;margin-left:calc(50% - 50vw)}
+    .topbar{position:sticky;top:0;z-index:20;backdrop-filter:blur(18px);background:rgba(3,14,24,.72);border-bottom:1px solid rgba(216,170,85,.16)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.04em;color:var(--gold2);white-space:nowrap}.brand-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--green),var(--green2));border:1px solid rgba(216,170,85,.5);box-shadow:0 0 0 6px rgba(216,170,85,.06)}
+    .nav-links{display:flex;gap:18px;align-items:center;font-size:14px;color:#dbe9e3}.nav-links a{color:inherit;text-decoration:none;opacity:.86}.nav-links a:hover{color:var(--gold2);opacity:1}
+    .btn{appearance:none;border:0;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;color:#061724;font-weight:900;letter-spacing:.02em;background:linear-gradient(135deg,var(--gold2),var(--gold));box-shadow:0 16px 30px rgba(216,170,85,.20);transition:transform .18s ease,box-shadow .25s ease}.btn:hover{transform:translateY(-2px);box-shadow:0 22px 36px rgba(216,170,85,.26)}.btn.ghost{background:rgba(255,255,255,.04);color:var(--gold2);border:1px solid var(--line);box-shadow:none}
+
+    .hero-intro{padding:42px 0 20px}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--line);border-radius:999px;color:var(--gold2);background:rgba(7,54,36,.56);font-weight:800;font-size:14px}.hero-intro h1{margin:18px 0 14px;line-height:1.02;font-size:clamp(40px,6vw,78px);letter-spacing:-.06em;font-weight:1000}.hero-intro .year{display:block;font-size:.46em;color:var(--gold2);letter-spacing:.12em;margin-bottom:8px}.hero-intro p{margin:0;max-width:920px;color:#e7f1ec;font-size:clamp(17px,2vw,21px);line-height:1.82;font-weight:620}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+
+    .slider-section{padding:14px 0 30px}
+    .hero-slider{position:relative;height:min(72vh,760px);min-height:500px;border-radius:0;overflow:hidden;background:#07131e;box-shadow:var(--shadow);border-top:1px solid rgba(216,170,85,.18);border-bottom:1px solid rgba(216,170,85,.18)}
+    .slides{display:flex;height:100%;transition:transform .8s cubic-bezier(.22,.61,.36,1)}
+    .slide{position:relative;min-width:100%;height:100%;overflow:hidden;cursor:pointer}
+    .slide-bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.04);transition:transform 6s ease, filter .5s ease}.slide.active .slide-bg{transform:scale(1.09)}
+    .slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,12,22,.78) 0%,rgba(3,12,22,.42) 45%,rgba(3,12,22,.55) 100%);z-index:1}
+    .slide:after{content:"";position:absolute;inset:auto -10% -35% auto;width:42vw;height:42vw;max-width:560px;max-height:560px;border-radius:50%;background:radial-gradient(circle,rgba(216,170,85,.16),transparent 66%);z-index:1}
+    .slide-inner{position:relative;z-index:2;height:100%;display:flex;align-items:flex-end;padding:48px 7vw 54px}.slide-box{max-width:min(760px,72vw);padding:26px 28px;border-radius:28px;background:linear-gradient(135deg,rgba(5,17,29,.66),rgba(5,17,29,.36));border:1px solid rgba(216,170,85,.26);backdrop-filter:blur(10px)}
+    .slide-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}.slide-badge{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:900;color:var(--gold2);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
+    .slide h2{margin:0;font-size:clamp(34px,4.8vw,76px);line-height:1.02;letter-spacing:-.06em}.slide p{margin:14px 0 0;color:#e8f4ef;font-size:clamp(15px,1.5vw,18px);line-height:1.82;font-weight:620;max-width:780px}.slide-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.slide-tags span{padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);font-size:13px;font-weight:900}.slide-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+    .slider-ui{position:absolute;left:0;right:0;bottom:18px;z-index:3;display:flex;justify-content:center;align-items:center;gap:12px}.dot{width:12px;height:12px;border-radius:50%;border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.18);cursor:pointer;transition:.25s ease}.dot.active{width:34px;border-radius:999px;background:linear-gradient(135deg,var(--gold2),var(--gold));border-color:transparent}.slider-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.18);background:rgba(3,17,29,.48);color:#fff;cursor:pointer;backdrop-filter:blur(8px);transition:.22s ease}.slider-arrow:hover{background:rgba(216,170,85,.22);border-color:rgba(216,170,85,.55)}.slider-arrow.prev{left:22px}.slider-arrow.next{right:22px}
+    .thumbs{position:absolute;right:22px;top:22px;z-index:3;display:flex;gap:12px}.thumb{width:122px;height:74px;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);cursor:pointer;position:relative;box-shadow:0 10px 24px rgba(0,0,0,.18)}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.42),transparent 60%)}.thumb.active{outline:2px solid rgba(240,210,138,.85)}
+
+    .burst-layer{position:absolute;inset:0;pointer-events:none;z-index:4;overflow:hidden}.burst,.spark-line,.shock-ring{position:absolute;left:0;top:0;pointer-events:none;mix-blend-mode:screen}.burst{width:8px;height:8px;border-radius:50%;background:radial-gradient(circle,var(--gold2),#fff 42%,var(--gold) 64%,rgba(255,255,255,0) 68%);box-shadow:0 0 16px rgba(240,210,138,.65);animation:burst .86s cubic-bezier(.19,.72,.22,1) forwards}.spark-line{width:42px;height:3px;border-radius:999px;background:linear-gradient(90deg,rgba(255,255,255,.98),rgba(240,210,138,.95) 38%,rgba(216,170,85,.45) 72%,transparent 100%);transform-origin:left center;filter:drop-shadow(0 0 8px rgba(240,210,138,.45));animation:spark .82s ease-out forwards}.shock-ring{width:20px;height:20px;border:2px solid rgba(240,210,138,.85);border-radius:50%;box-shadow:0 0 18px rgba(240,210,138,.3);animation:ring .75s ease-out forwards}@keyframes burst{0%{transform:translate(var(--x),var(--y)) scale(1);opacity:1}100%{transform:translate(calc(var(--x) + var(--tx)),calc(var(--y) + var(--ty))) scale(.12);opacity:0}}@keyframes spark{0%{transform:translate(var(--x),var(--y)) rotate(var(--rot)) scaleX(1);opacity:1}100%{transform:translate(calc(var(--x) + var(--tx)),calc(var(--y) + var(--ty))) rotate(var(--rot)) scaleX(.22);opacity:0}}@keyframes ring{0%{transform:translate(var(--x),var(--y)) scale(.28);opacity:.95}100%{transform:translate(calc(var(--x) - 60px),calc(var(--y) - 60px)) scale(6.2);opacity:0}}
+
+    .video-promo{padding:28px 0 0}.video-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);gap:22px;align-items:stretch}.video-stage,.video-side,.platform-tab,.feature-card,.process-card,.cta-card,.module-card,.stat{transform-style:preserve-3d;will-change:transform}.video-stage,.video-side{position:relative;overflow:hidden;border-radius:30px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.03));box-shadow:var(--shadow)}.video-stage video{display:block;width:100%;height:100%;min-height:420px;object-fit:cover;background:#09131e}.video-badge{position:absolute;left:18px;top:18px;z-index:3;display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;background:rgba(3,16,27,.68);color:var(--gold2);border:1px solid rgba(216,170,85,.4);font-weight:900}.video-overlay{position:absolute;left:18px;right:18px;bottom:18px;z-index:3;display:flex;justify-content:space-between;align-items:end;gap:14px;pointer-events:none}.v-title{max-width:68%;background:linear-gradient(135deg,rgba(4,17,29,.78),rgba(4,17,29,.52));border:1px solid rgba(216,170,85,.26);backdrop-filter:blur(10px);padding:16px 18px;border-radius:22px}.v-title strong{display:block;font-size:24px;margin-bottom:8px}.v-title span{display:block;font-size:13px;color:#d7e5de;line-height:1.65;font-weight:600}.play-hint{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;color:#061724;background:linear-gradient(135deg,var(--gold2),var(--gold));box-shadow:0 16px 34px rgba(216,170,85,.35);font-size:26px;align-self:center}.video-side{padding:26px}.video-side .side-label{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:900;color:var(--gold2);border:1px solid rgba(216,170,85,.34);background:rgba(7,54,36,.48)}.video-side h3{margin:16px 0 10px;font-size:clamp(28px,3vw,42px);line-height:1.05;letter-spacing:-.04em}.video-side p{margin:0;color:#d5e5de;line-height:1.78;font-weight:620}.video-side ul{margin:18px 0 0;padding-left:18px;color:#eef5f1;line-height:1.9;font-weight:650}.video-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.video-meta span{display:inline-flex;align-items:center;padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#fff;font-size:13px;font-weight:900}
+
+    section{padding:78px 0;position:relative}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:28px}.section-head h2{margin:0;font-size:clamp(30px,4.4vw,52px);line-height:1.1;letter-spacing:-.04em}.section-head p{margin:0;max-width:620px;color:#c8d9d1;line-height:1.8;font-weight:600}
+    .platform-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:26px}.platform-tab{position:relative;overflow:hidden;text-align:left;min-height:144px;border-radius:24px;padding:18px;border:1px solid var(--line);background:rgba(255,255,255,.07);color:#fff;cursor:pointer;transition:.22s ease}.platform-tab:hover{transform:translateY(-4px);border-color:rgba(240,210,138,.75)}.platform-tab.active{background:#fff;color:var(--ink);border-color:var(--gold);box-shadow:0 18px 42px rgba(0,0,0,.25)}.platform-tab .icon{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--green),var(--green2));color:var(--gold2);display:grid;place-items:center;font-size:20px;margin-bottom:14px}.platform-tab.active .icon{color:#fff}.platform-tab b{display:block;font-size:18px;margin-bottom:6px}.platform-tab span{display:block;font-size:13px;line-height:1.5;opacity:.82}
+    .curriculum-shell{background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:32px;padding:24px;box-shadow:var(--shadow)}.course-panel{display:block;animation:fade .35s ease both}@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}.course-hero{background:#fff;color:var(--ink);border-radius:28px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;border:1px solid rgba(216,170,85,.45);margin-bottom:18px}.course-hero h3{margin:0 0 8px;color:var(--green);font-size:32px;letter-spacing:-.03em}.course-hero p{margin:0;color:#4e625c;line-height:1.65;font-weight:650}.course-tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}.course-tags span{background:#f7f3e9;color:#5c461b;border:1px solid #ead6a6;padding:8px 12px;border-radius:999px;font-weight:900;font-size:13px;white-space:nowrap}
+    .module-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.module-card{background:#fff;color:var(--ink);border:1px solid rgba(216,170,85,.48);border-radius:26px;overflow:hidden;min-height:430px;box-shadow:0 18px 38px rgba(0,0,0,.20)}.module-title{display:flex;align-items:center;gap:14px;padding:18px 20px;background:linear-gradient(135deg,var(--green),#092d1c);color:#fff;border-bottom:3px solid var(--gold)}.module-title .num{font-size:35px;line-height:1;color:var(--gold2);font-weight:1000;letter-spacing:-.03em}.module-title h4{margin:0;font-size:21px;line-height:1.2;letter-spacing:-.02em}.module-title small{display:block;margin-top:4px;color:#d8efe2;font-weight:700}.module-body{padding:18px 20px 14px;display:grid;gap:14px}.lesson{border:1px solid rgba(11,92,54,.18);border-radius:18px;padding:14px 14px 12px;background:#fff}.lesson h5{display:flex;align-items:center;gap:8px;margin:0 0 8px;color:var(--green);font-size:17px}.lesson h5 i{font-style:normal;display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--green);color:#fff;font-size:13px;flex:none}.lesson ul{margin:0;padding-left:18px;color:#213a32;line-height:1.68;font-size:14px;font-weight:620}.ratio{display:flex;margin:0 20px 18px;border-radius:999px;overflow:hidden;border:1px solid rgba(216,170,85,.34);font-weight:1000;font-size:14px}.ratio span:first-child{background:var(--green);color:#fff;flex:var(--theory);padding:10px 12px;text-align:center}.ratio span:last-child{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#1b241d;flex:var(--practice);padding:10px 12px;text-align:center}
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature-card{background:#fff;color:var(--ink);border:1px solid rgba(216,170,85,.42);border-radius:24px;padding:22px;min-height:170px;transition:transform .22s ease,box-shadow .25s ease}.feature-card:hover{box-shadow:0 18px 40px rgba(0,0,0,.18)}.feature-card .f-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;color:var(--gold2);background:var(--green);font-size:21px;margin-bottom:16px}.feature-card h3{margin:0 0 8px;color:var(--green);font-size:19px}.feature-card p{margin:0;color:#52635e;line-height:1.65;font-weight:620;font-size:14px}
+    .process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}.process-card{counter-increment:step;background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:24px;padding:20px;transition:transform .22s ease,box-shadow .25s ease}.process-card:hover{box-shadow:0 18px 38px rgba(0,0,0,.18)}.process-card:before{content:"0" counter(step);display:block;color:var(--gold2);font-size:34px;font-weight:1000;margin-bottom:16px}.process-card h3{margin:0 0 8px;font-size:19px}.process-card p{margin:0;color:#c5d7d0;line-height:1.65;font-weight:600}
+    .cta{padding-bottom:90px}.cta-card{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(11,92,54,.98),rgba(6,23,36,.98));border:1px solid var(--line);border-radius:34px;padding:38px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;box-shadow:var(--shadow)}.cta-card:after{content:"BRASIL";position:absolute;right:24px;top:-10px;font-size:96px;font-weight:1000;letter-spacing:.1em;color:rgba(255,255,255,.045)}.cta-card h2{margin:0 0 10px;font-size:clamp(30px,4vw,48px)}.cta-card p{margin:0;color:#d5e5de;line-height:1.8;font-weight:650}
+    footer{border-top:1px solid rgba(216,170,85,.25);padding:26px 0;color:#b9cbc3;font-size:14px}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.in{opacity:1;transform:none}
+    @media (max-width:1100px){.video-grid{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.process{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:960px){.nav-links{display:none}.platform-tabs{grid-template-columns:repeat(2,1fr)}.platform-tab:first-child{grid-column:span 2}.module-grid{grid-template-columns:1fr}.course-hero{grid-template-columns:1fr}.course-tags{justify-content:flex-start}.cta-card{grid-template-columns:1fr}.thumbs{display:none}.hero-slider{min-height:460px;height:64vh}}
+    @media (max-width:620px){.wrap{width:min(100% - 24px,var(--max))}.nav{height:64px}.brand span{font-size:14px}.brand-mark{width:36px;height:36px}.hero-slider{min-height:430px;height:58vh}.slide-inner{padding:26px 16px 60px}.slide-box{max-width:100%;padding:18px;border-radius:20px}.slide h2{font-size:34px}.slide p{font-size:14px}.slider-arrow{width:46px;height:46px}.slider-arrow.prev{left:12px}.slider-arrow.next{right:12px}.hero-intro{padding-top:28px}.hero-intro h1{font-size:42px}.hero-intro p{font-size:16px}.video-stage video,.video-stage{min-height:260px}.video-overlay{left:12px;right:12px;bottom:12px}.v-title{max-width:calc(100% - 92px);padding:14px}.v-title strong{font-size:18px}.play-hint{width:62px;height:62px;font-size:22px}section{padding:52px 0}.section-head{display:block}.section-head p{margin-top:12px}.platform-tabs{grid-template-columns:1fr}.platform-tab:first-child{grid-column:auto}.curriculum-shell{padding:12px;border-radius:24px}.course-hero{padding:18px;border-radius:22px}.course-hero h3{font-size:25px}.features,.process{grid-template-columns:1fr}.module-card{min-height:auto;border-radius:22px}.module-title{padding:16px}.module-title h4{font-size:18px}.module-body{padding:14px}.ratio{margin:0 14px 14px;font-size:12px}.cta-card{padding:24px;border-radius:24px}}
+  </style>
+</head>
+<body>
+  <canvas class="fx-canvas" id="fxCanvas" aria-hidden="true"></canvas>
+  <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="brand"><div class="brand-mark">◎</div><span>拉美国际 LAMEIGUOJI.TOP</span></div>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#hero">首页</a><a href="#platforms">课程体系</a><a href="#advantages">服务优势</a><a href="#process">学习流程</a><a href="#contact">项目咨询</a>
+      </nav>
+      <a class="btn ghost" href="#platforms">查看课程</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-intro" id="hero">
+      <div class="wrap reveal in">
+        <div class="eyebrow">2026 拉美跨境电商项目实训｜全屏横幅版 V3</div>
+        <h1><span class="year">2026</span>拉美跨境课程官网</h1>
+        <p>顶部 3 张横幅已替换为从三联宣传图中提取的独立轮播图，分别对应 TikTok Shop、Mercado Livre 和 Shopee。每张图都已接入网页顶部轮播区，并继续保留悬停爆炸粒子、火花拖尾与冲击波交互特效。</p>
+        <div class="hero-actions"><a class="btn" href="#platforms">进入课程表</a><a class="btn ghost" href="#contact">企业内训咨询</a></div>
+      </div>
+    </section>
+
+    <section class="slider-section fullbleed reveal">
+      <div class="hero-slider" id="heroSlider">
+        <button class="slider-arrow prev" id="prevSlide" aria-label="上一张">‹</button>
+        <button class="slider-arrow next" id="nextSlide" aria-label="下一张">›</button>
+        <div class="thumbs" id="thumbs"></div>
+        <div class="slides" id="slides">
+          <article class="slide active" data-platform="tiktok" data-hero="tiktok">
+            <div class="slide-bg" style="background-image:url('assets/banner-tiktok.png'); background-position:center 18%"></div>
+            <div class="burst-layer"></div>
+            <div class="slide-inner">
+              <div class="slide-box">
+                <div class="slide-top"><span class="slide-badge">主打平台</span><span class="slide-badge">TikTok Shop</span></div>
+                <h2>TikTok Shop<br>巴西全站打法</h2>
+                <p>从平台认知、选品、短视频内容、达人建联，到直播与 ADS 投流的完整训练路径。适合企业团队与个人项目快速落地。</p>
+                <div class="slide-tags"><span>短视频</span><span>达人合作</span><span>直播</span><span>ADS投流</span></div>
+                <div class="slide-cta"><button class="btn" data-jump="tiktok">查看 TikTok Shop 课程</button></div>
+              </div>
+            </div>
+          </article>
+          <article class="slide" data-platform="meli" data-hero="meli">
+            <div class="slide-bg" style="background-image:url('assets/banner-meli.jpg'); background-position:center 12%"></div>
+            <div class="burst-layer"></div>
+            <div class="slide-inner">
+              <div class="slide-box">
+                <div class="slide-top"><span class="slide-badge">平台横幅</span><span class="slide-badge">Mercado Livre 美客多</span></div>
+                <h2>Mercado Livre<br>拉美本土增长路线</h2>
+                <p>围绕拉美本土平台逻辑，重点训练巴西/拉美市场认知、商品刊登、物流评分、广告排名与利润模型，适合供应链团队切入本地市场。</p>
+                <div class="slide-tags"><span>拉美本土化</span><span>刊登优化</span><span>物流评分</span><span>广告排名</span></div>
+                <div class="slide-cta"><button class="btn" data-jump="meli">查看美客多课程</button></div>
+              </div>
+            </div>
+          </article>
+          <article class="slide" data-platform="shopee" data-hero="shopee">
+            <div class="slide-bg" style="background-image:url('assets/banner-shopee.jpg'); background-position:center 18%"></div>
+            <div class="burst-layer"></div>
+            <div class="slide-inner">
+              <div class="slide-box">
+                <div class="slide-top"><span class="slide-badge">平台横幅</span><span class="slide-badge">Shopee 虾皮</span></div>
+                <h2>Shopee 虾皮<br>活动流量与广告提效</h2>
+                <p>从店铺搭建、批量上新、促销活动，到搜索广告、商品广告和经营复盘，适合需要稳步提升流量与转化效率的项目。</p>
+                <div class="slide-tags"><span>批量上新</span><span>活动促销</span><span>搜索广告</span><span>转化优化</span></div>
+                <div class="slide-cta"><button class="btn" data-jump="shopee">查看 Shopee 课程</button></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="slider-ui" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <section class="video-promo">
+      <div class="wrap">
+        <div class="video-grid reveal">
+          <div class="video-stage tilt-card">
+            <div class="video-badge">▶ 宣传视频</div>
+            <video id="promoVideo" autoplay muted loop playsinline controls poster="assets/banner-tiktok.png">
+              <source src="assets/tiktok-promo.mp4" type="video/mp4" />
+            </video>
+            <div class="video-overlay">
+              <div class="v-title"><strong id="videoTitle">TikTok Shop 主打课程宣传</strong><span id="videoSubtitle">默认展示 TikTok Shop 横幅内容。点击上方全屏横幅，可联动切换下方视频文案与课程表。</span></div>
+              <div class="play-hint">▶</div>
+            </div>
+          </div>
+          <aside class="video-side tilt-card">
+            <span class="side-label">全屏横幅联动说明</span>
+            <h3 id="videoSideTitle">主打平台：TikTok Shop</h3>
+            <p id="videoDesc">顶部现在是 3 张全屏图片横幅，支持自动左右滑动、手动切换与鼠标悬停爆炸粒子特效。点击横幅或按钮即可联动切换下面的平台课程表。</p>
+            <div class="video-meta" id="videoMeta"></div>
+            <ul id="videoList"></ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="platforms">
+      <div class="wrap">
+        <div class="section-head reveal"><h2>平台课程表</h2><p>默认展示 TikTok Shop。点击 Shopee、美客多、SHEIN 或 TEMU 卡片后，页面会切换对应平台课程表。顶部全屏横幅也会联动到相应课程。</p></div>
+        <div class="platform-tabs reveal" role="tablist" aria-label="电商平台课程切换">
+          <button class="platform-tab tilt-card active" type="button" data-platform="tiktok" role="tab" aria-selected="true"><div class="icon">▶</div><b>TikTok Shop</b><span>主打课程｜巴西全站打法</span></button>
+          <button class="platform-tab tilt-card" type="button" data-platform="shopee" role="tab" aria-selected="false"><div class="icon">袋</div><b>Shopee 虾皮</b><span>店铺运营｜活动流量｜广告转化</span></button>
+          <button class="platform-tab tilt-card" type="button" data-platform="meli" role="tab" aria-selected="false"><div class="icon">M</div><b>Mercado Livre 美客多</b><span>拉美本土化｜物流评分｜广告排名</span></button>
+          <button class="platform-tab tilt-card" type="button" data-platform="shein" role="tab" aria-selected="false"><div class="icon">S</div><b>SHEIN</b><span>供货入驻｜商品规范｜测款上新</span></button>
+          <button class="platform-tab tilt-card" type="button" data-platform="temu" role="tab" aria-selected="false"><div class="icon">T</div><b>TEMU</b><span>半托管/全托管｜选品报价｜履约提效</span></button>
+        </div>
+        <div class="curriculum-shell reveal" id="curriculum" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="advantages">
+      <div class="wrap">
+        <div class="section-head reveal"><h2>为什么适合项目落地</h2><p>不是碎片化知识点，而是围绕平台规则、产品、内容、流量、财务与工具搭建的项目训练路径。</p></div>
+        <div class="features reveal">
+          <article class="feature-card tilt-card"><div class="f-icon">🎯</div><h3>定位清晰</h3><p>按平台、阶段与项目目标拆分课程，避免一上来就盲目铺摊子。</p></article>
+          <article class="feature-card tilt-card"><div class="f-icon">🧩</div><h3>模块组合</h3><p>企业团队可选择内训模块，个人项目可按预算与进度分阶段学习。</p></article>
+          <article class="feature-card tilt-card"><div class="f-icon">⚙️</div><h3>工具落地</h3><p>覆盖账号、店铺、ERP、广告、数据、拍剪与直播中控等核心工具链。</p></article>
+          <article class="feature-card tilt-card"><div class="f-icon">📈</div><h3>结果导向</h3><p>每个平台都强调选品、上架、内容、流量与复盘，服务真实项目增长。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head reveal"><h2>学习与交付流程</h2><p>先诊断项目阶段，再匹配平台课程，训练过程以实操、案例和复盘推进。</p></div>
+        <div class="process reveal">
+          <article class="process-card tilt-card"><h3>项目诊断</h3><p>确认团队基础、货盘资源、目标市场与当前平台进度。</p></article>
+          <article class="process-card tilt-card"><h3>课程匹配</h3><p>选择 TikTok Shop 主打路径，或扩展其他平台课程模块。</p></article>
+          <article class="process-card tilt-card"><h3>实操训练</h3><p>围绕店铺搭建、上架、内容、投流与数据复盘进行训练。</p></article>
+          <article class="process-card tilt-card"><h3>复盘优化</h3><p>结合账号、商品、内容与财务数据，形成下一步执行清单。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="wrap"><div class="cta-card reveal tilt-card"><div><h2>适合企业团队与个人项目启动</h2><p>覆盖企业内训、供应链转跨境、个人项目启动、运营能力提升。可根据货盘、预算、人员基础和平台方向，组合 TikTok Shop、Shopee、美客多、SHEIN、TEMU 课程。</p></div><a class="btn" href="mailto:contact@lameiguoji.top?subject=课程咨询">联系拉美国际</a></div></div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><strong>拉美国际 LAMEIGUOJI.TOP</strong><span>© 2026 Brazil & LATAM E-commerce Training. 企业内训｜供应链跨境｜个人项目实战</span></div></footer>
+
+  <script>
+    const data = {
+      tiktok: {title:'TikTok Shop 巴西全站课程',desc:'主打课程，覆盖从认知、店铺、选品、短视频内容、达人建联、广告投流到直播与矩阵工具的完整路径。',tags:['课程周期 2天~15天','默认主打','巴西市场','企业/个人项目'],modules:[{no:'00',name:'启蒙课程',time:'1天',ratio:['70%理论','30%案例分享'],theory:70,practice:30,lessons:[['TK跨境现状、机会与国家选择',['TikTok Shop发展现状','巴西及重点市场机会分析','TK短期与长期项目机会','如何判断适合自己的赛道']],['TK运营模式、工具与选品逻辑',['常见运营模式拆解','工厂/贸易公司如何切入','热销类目与供应链对接','选品平台与底层逻辑']],['短视频风控、养号与内容运营',['设备与网络环境准备','账号注册常见问题处理','冷启动起号与低成本引流','内容定位与基础运营思路']]]},{no:'01',name:'一阶运营',time:'2~5天',ratio:['40%理论','60%实操'],theory:40,practice:60,lessons:[['软硬件安装、注册与使用技巧',['手机与电脑常用工具安装','多APP账号注册规则','账号基础包装与安全设置','浏览器插件与辅助工具使用']],['店铺基础设置与ERP上架',['AI店铺命名与LOGO思路','店铺后台基础配置','仓库与收款信息绑定','ERP批量选品与上架流程']],['权重提升、高毛利打法与达人建联',['详情优化与权重提升','定价、物流与毛利策略','联盟佣金设置与选达人','定向邀约与合作沟通']]]},{no:'02',name:'二阶拍剪',time:'5~7天',ratio:['20%理论','80%拍剪运营'],theory:20,practice:80,lessons:[['剪辑软件熟用与批量混剪',['剪映等工具界面熟悉','批量混剪视频方法','字幕、转场、滤镜与卡点','素材整理与去重思路']],['移动拍摄参数与运镜技巧',['拍摄设备与道具准备','景别、构图与景深表现','补光搭建与场景布置','推拉摇移等基础运镜']],['AI原创二创与爆款拆解翻拍',['爆款脚本与分镜拆解','产品卖点提炼与展示','AI图文/视频辅助创作','视频发布与热门标签应用']]]},{no:'03',name:'三阶科技',time:'7~15天',ratio:['30%理论','70%实操与互动分享'],theory:30,practice:70,lessons:[['企邮、网络环境与ADS投流',['企业邮箱低成本搭建','独享网络环境与IP方案','广告账户类型与基础规则','商品卡/视频广告计划搭建']],['数据分析、无人直播与直播中控',['店铺数据复盘与优化','真人/半无人/无人直播模式','直播间场景、打光与绿幕','直播伴侣与后台中控设置']],['财务逻辑、矩阵工具与独立站',['单品毛利与定价测算','订单数据与ERP协同','矩阵账号内容分发思路','独立站搭建与运营逻辑']]]}]},
+      shopee:{title:'Shopee 虾皮运营课程表',desc:'适合从零搭建店铺、优化商品、参加活动、投放广告与提升转化的团队和个人项目。',tags:['2~10天','店铺运营','活动流量','广告优化'],modules:[{no:'01',name:'平台认知与店铺搭建',time:'1~2天',ratio:['60%理论','40%实操'],theory:60,practice:40,lessons:[['市场与类目机会',['Shopee站点差异','热销类目与价格带','竞品店铺拆解','项目投入与利润模型']],['店铺基础设置',['入驻资料准备','店铺装修与品牌感','物流与收款配置','基础规则与违规红线']],['产品池搭建',['货盘分层方法','SKU规划与备货节奏','标题关键词整理','主图与详情标准']]]},{no:'02',name:'选品上架与日常运营',time:'2~4天',ratio:['35%理论','65%实操'],theory:35,practice:65,lessons:[['批量上新流程',['表格批量刊登','属性与变体规范','定价与优惠券设置','库存与发货时效管理']],['活动与促销',['平台活动报名','店铺券与折扣组合','秒杀与加购策略','活动后复盘']],['客服与评分',['聊天回复模板','售后处理流程','差评预防与补救','店铺评分维护']]]},{no:'03',name:'广告投放与数据增长',time:'3~10天',ratio:['30%理论','70%实操复盘'],theory:30,practice:70,lessons:[['搜索广告基础',['关键词分层','预算与出价规则','低成本测词','ROI数据判断']],['商品与店铺广告',['爆品放量逻辑','关联商品布局','人群与场景优化','活动期投放节奏']],['经营复盘',['点击率与转化率诊断','动销与滞销处理','利润表与成本核算','月度运营计划']]]}]},
+      meli:{title:'Mercado Livre 美客多课程表',desc:'围绕拉美本土电商逻辑，重点训练巴西/拉美市场认知、商品刊登、物流评分、广告排名与财务风控。',tags:['2~12天','拉美本土化','物流评分','广告排名'],modules:[{no:'01',name:'市场认知与账号基础',time:'1~2天',ratio:['65%理论','35%案例'],theory:65,practice:35,lessons:[['平台与市场机会',['美客多平台生态','巴西与拉美消费特点','类目机会与竞争强度','本土化合规意识']],['账号与店铺准备',['账号资料与基础设置','品牌呈现与信任搭建','收款与物流路径梳理','风险点与规则红线']],['竞品拆解',['Listing结构分析','价格与包邮策略','评价与销量判断','头部卖家打法复盘']]]},{no:'02',name:'刊登上架与物流评分',time:'2~5天',ratio:['35%理论','65%实操'],theory:35,practice:65,lessons:[['商品刊登标准',['标题关键词规则','类目属性填写','图片与详情页结构','变体与库存规划']],['定价与利润',['平台费用结构','物流成本测算','毛利与活动折扣','汇率与回款周期']],['物流与售后',['发货模式选择','时效与评分维护','退换货处理流程','客服话术与纠纷预防']]]},{no:'03',name:'广告投流与增长复盘',time:'5~12天',ratio:['30%理论','70%实操'],theory:30,practice:70,lessons:[['自然排名提升',['曝光点击转化链路','评价与销量权重','关键词优化节奏','爆品生命周期管理']],['广告计划搭建',['广告账户基础','商品广告测款','预算与竞价调整','ROAS与利润平衡']],['数据与矩阵',['店铺数据看板','多商品组合打法','库存周转复盘','区域与类目扩展计划']]]}]},
+      shein:{title:'SHEIN 供货与运营课程表',desc:'适合工厂、贸易商和供应链团队，聚焦入驻资料、商品规范、供货节奏、测款上新和数据复盘。',tags:['2~8天','供应链适配','商品规范','测款上新'],modules:[{no:'01',name:'平台模式与入驻准备',time:'1~2天',ratio:['70%理论','30%材料梳理'],theory:70,practice:30,lessons:[['平台模式认知',['平台经营模式拆解','适合品类与供应链要求','工厂/贸易商切入路径','项目团队与分工']],['入驻资料准备',['企业资料清单','品牌与授权材料','产品资质与检测意识','基础沟通与提报流程']],['成本与报价',['供货价格结构','包装与质检成本','交期与产能评估','利润与现金流测算']]]},{no:'02',name:'商品规范与上新测款',time:'2~5天',ratio:['35%理论','65%实操'],theory:35,practice:65,lessons:[['商品开发标准',['款式与趋势分析','尺码颜色与规格规划','图片与素材要求','标题属性与卖点整理']],['上新与测款',['新品提报节奏','样品与质检流程','测款数据观察','爆款补货与淘汰机制']],['供应链协同',['交期管理','订单与库存协同','异常处理流程','部门协作看板']]]},{no:'03',name:'数据复盘与长期供货',time:'5~8天',ratio:['30%理论','70%复盘优化'],theory:30,practice:70,lessons:[['销售数据复盘',['点击与转化分析','尺码颜色销量结构','退货原因归因','价格带优化']],['爆品供应策略',['爆款生命周期','补货计划制定','多款式系列化开发','季节性备货节奏']],['团队管理工具',['商品资料库搭建','报价模板与利润表','供应链SOP','月度复盘会议机制']]]}]},
+      temu:{title:'TEMU 选品报价与履约课程表',desc:'适合供应链型卖家和工厂团队，围绕全托管/半托管模式、选品报价、商品资料、履约成本与运营复盘。',tags:['2~10天','全托管/半托管','选品报价','履约提效'],modules:[{no:'01',name:'平台模式与项目准备',time:'1~2天',ratio:['65%理论','35%案例'],theory:65,practice:35,lessons:[['平台模式拆解',['全托管与半托管差异','适合卖家类型判断','品类机会与竞争逻辑','平台规则与红线']],['资料与团队准备',['企业与产品资料清单','样品、质检与包装要求','项目人员分工','报价与交付流程梳理']],['成本模型',['采购与生产成本','包装与仓储成本','物流履约成本','利润与现金流测算']]]},{no:'02',name:'选品报价与商品提报',time:'2~5天',ratio:['35%理论','65%实操'],theory:35,practice:65,lessons:[['选品开发',['平台热品拆解','同款与差异化判断','价格带与卖点匹配','供应链稳定性评估']],['报价策略',['阶梯报价模板','毛利与底价测算','活动价预留空间','异常成本预警']],['商品资料提报',['图片与视频素材准备','标题属性与规格整理','包装尺寸重量填写','合规资料与检测意识']]]},{no:'03',name:'履约管理与运营复盘',time:'5~10天',ratio:['30%理论','70%实操复盘'],theory:30,practice:70,lessons:[['订单与履约',['订单流转流程','备货与入仓节奏','缺货与延期处理','售后异常跟进']],['数据优化',['动销与转化分析','价格与库存联动','退货与差评归因','补货与淘汰机制']],['矩阵与扩品',['产品线扩展计划','多供应商协同','爆品复制路径','月度项目复盘表']]]}]}
+    };
+
+    const heroInfo={
+      tiktok:{videoTitle:'TikTok Shop 主打课程宣传',videoSubtitle:'视频已切换为 TikTok Shop 真实 MP4 宣传素材。点击其他平台卡片或顶部横幅，视频和文案都会同步切换。',sideTitle:'主打平台：TikTok Shop',desc:'顶部 3 张横幅已替换为真实广告图，当前展示 TikTok Shop。悬停横幅可触发更强的爆炸粒子、火花拖尾和冲击波特效。',meta:['2~15天','巴西市场','短视频/达人/直播','默认主打'],list:['启蒙到进阶的分阶段课程体系','覆盖短视频、达人建联、投流与直播','适合企业团队内训和个人项目落地','视频、文案与课程表会同步切换'],media:'assets/tiktok-promo.mp4',poster:'assets/banner-tiktok.png'},
+      meli:{videoTitle:'美客多课程宣传展示',videoSubtitle:'视频已切换为 Mercado Livre 美客多宣传素材，强调拉美本土平台认知、刊登运营、物流评分与广告排名。',sideTitle:'推荐平台：Mercado Livre 美客多',desc:'适合以拉美本土平台为重点的卖家团队。当前横幅、视频文案和课程表已经联动到美客多模块。',meta:['2~12天','拉美本土化','物流评分','广告排名'],list:['训练巴西/拉美本地平台运营逻辑','重视物流评分与售后流程维护','适合供应链切入本土平台项目','支持阶段式课程匹配与项目推进'],media:'assets/meli-promo.mp4',poster:'assets/banner-meli.jpg'},
+      shopee:{videoTitle:'Shopee 课程宣传展示',videoSubtitle:'视频已切换为 Shopee 宣传素材，围绕店铺搭建、活动流量、批量上新与搜索广告进行展示。',sideTitle:'推荐平台：Shopee 虾皮',desc:'适合希望兼顾活动流量和广告优化的团队与个人项目。当前横幅、视频文案和课程表已经联动到 Shopee 模块。',meta:['2~10天','批量上新','活动促销','广告转化'],list:['从店铺搭建到日常运营完整覆盖','强调活动报名、促销组合与客服评分','兼顾搜索广告、商品广告与经营复盘','适合精细化运营和转化提效场景'],media:'assets/shopee-promo.mp4',poster:'assets/banner-shopee.jpg'},
+      shein:{videoTitle:'SHEIN 课程宣传展示',videoSubtitle:'文案已切换到 SHEIN 供应链课程，视频使用风格统一的宣传素材展示。',sideTitle:'推荐平台：SHEIN',desc:'适合工厂、贸易商和供应链团队，重点围绕入驻资料、商品规范、供货节奏、测款上新和数据复盘。',meta:['2~8天','供应链适配','商品规范','测款上新'],list:['适合工厂和供应链切入 SHEIN','强调入驻资料、报价与商品规范','覆盖上新测款与长期供货机制','点击平台卡片即可查看对应课程表'],media:'assets/meli-promo.mp4',poster:'assets/banner-meli.jpg'},
+      temu:{videoTitle:'TEMU 课程宣传展示',videoSubtitle:'文案已切换到 TEMU 选品报价与履约课程，视频使用风格统一的宣传素材展示。',sideTitle:'推荐平台：TEMU',desc:'适合供应链型卖家和工厂团队，重点围绕全托管/半托管模式、选品报价、履约成本和运营复盘。',meta:['2~10天','全托管/半托管','选品报价','履约提效'],list:['围绕全托管/半托管项目落地','讲清选品、报价与商品提报流程','强调履约成本、补货节奏与运营复盘','支持与其他平台课程组合学习'],media:'assets/shopee-promo.mp4',poster:'assets/banner-shopee.jpg'}
+    };
+
+    const curriculum=document.getElementById('curriculum');
+    const tabs=[...document.querySelectorAll('.platform-tab')];
+    const slides=[...document.querySelectorAll('.slide')];
+    const slidesTrack=document.getElementById('slides');
+    const dotsWrap=document.getElementById('sliderDots');
+    const thumbsWrap=document.getElementById('thumbs');
+    let slideIndex=0, timer=null;
+
+    function renderPlatform(key){
+      const p=data[key];
+      const cards=p.modules.map(module=>{
+        const lessons=module.lessons.map((lesson,idx)=>`<div class="lesson"><h5><i>${idx+1}</i>${lesson[0]}</h5><ul>${lesson[1].map(item=>`<li>${item}</li>`).join('')}</ul></div>`).join('');
+        return `<article class="module-card tilt-card"><div class="module-title"><span class="num">${module.no}</span><div><h4>${module.name}</h4><small>${module.time}</small></div></div><div class="module-body">${lessons}</div><div class="ratio" style="--theory:${module.theory};--practice:${module.practice}"><span>${module.ratio[0]}</span><span>${module.ratio[1]}</span></div></article>`;
+      }).join('');
+      curriculum.innerHTML=`<div class="course-panel"><div class="course-hero"><div><h3>${p.title}</h3><p>${p.desc}</p></div><div class="course-tags">${p.tags.map(tag=>`<span>${tag}</span>`).join('')}</div></div><div class="module-grid">${cards}</div></div>`;
+      bindTilt();
+    }
+
+    function setActiveTab(key){
+      tabs.forEach(tab=>{const active=tab.dataset.platform===key;tab.classList.toggle('active',active);tab.setAttribute('aria-selected',active?'true':'false')});
+      renderPlatform(key);
+      setHeroInfo(key);
+    }
+
+    function setHeroInfo(key){
+      const info=heroInfo[key]||heroInfo.tiktok;
+      document.getElementById('videoTitle').textContent=info.videoTitle;
+      document.getElementById('videoSubtitle').textContent=info.videoSubtitle;
+      document.getElementById('videoSideTitle').textContent=info.sideTitle;
+      document.getElementById('videoDesc').textContent=info.desc;
+      document.getElementById('videoMeta').innerHTML=info.meta.map(item=>`<span>${item}</span>`).join('');
+      document.getElementById('videoList').innerHTML=info.list.map(item=>`<li>${item}</li>`).join('');
+      const video=document.getElementById('promoVideo');
+      const source=video.querySelector('source');
+      if(source.getAttribute('src')!==info.media){
+        const playing = !video.paused;
+        source.setAttribute('src',info.media);
+        video.setAttribute('poster',info.poster);
+        video.load();
+        if(playing){ video.play().catch(()=>{}); }
+      } else {
+        video.setAttribute('poster',info.poster);
+      }
+    }
+
+    function buildSliderNav(){
+      slides.forEach((slide,i)=>{
+        const dot=document.createElement('button'); dot.className='dot'+(i===0?' active':''); dot.setAttribute('aria-label',`切换到第${i+1}张`); dot.addEventListener('click',()=>goToSlide(i,true)); dotsWrap.appendChild(dot);
+        const thumb=document.createElement('button'); thumb.className='thumb'+(i===0?' active':''); thumb.innerHTML=`<img src="${slide.querySelector('.slide-bg').style.backgroundImage.slice(5,-2)}" alt="banner ${i+1}">`; thumb.addEventListener('click',()=>goToSlide(i,true)); thumbsWrap.appendChild(thumb);
+      });
+    }
+
+    function goToSlide(index,userAction=false){
+      slideIndex=(index+slides.length)%slides.length;
+      slidesTrack.style.transform=`translateX(-${slideIndex*100}%)`;
+      slides.forEach((slide,i)=>slide.classList.toggle('active',i===slideIndex));
+      [...dotsWrap.children].forEach((dot,i)=>dot.classList.toggle('active',i===slideIndex));
+      [...thumbsWrap.children].forEach((thumb,i)=>thumb.classList.toggle('active',i===slideIndex));
+      const current=slides[slideIndex];
+      const platform=current.dataset.platform;
+      setActiveTab(platform);
+      if(userAction){resetTimer();}
+    }
+    function nextSlide(){goToSlide(slideIndex+1)}
+    function prevSlide(){goToSlide(slideIndex-1,true)}
+    function startTimer(){stopTimer(); timer=setInterval(nextSlide,4800)}
+    function stopTimer(){if(timer){clearInterval(timer);timer=null}}
+    function resetTimer(){startTimer()}
+    buildSliderNav();
+    goToSlide(0);
+    startTimer();
+
+    document.getElementById('nextSlide').addEventListener('click',()=>goToSlide(slideIndex+1,true));
+    document.getElementById('prevSlide').addEventListener('click',prevSlide);
+    document.getElementById('heroSlider').addEventListener('mouseenter',stopTimer);
+    document.getElementById('heroSlider').addEventListener('mouseleave',startTimer);
+    tabs.forEach(tab=>tab.addEventListener('click',()=>setActiveTab(tab.dataset.platform)));
+    document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation(); const key=btn.dataset.jump; setActiveTab(key); document.getElementById('platforms').scrollIntoView({behavior:'smooth',block:'start'});}));
+    slides.forEach(slide=>slide.addEventListener('click',()=>{setActiveTab(slide.dataset.platform); document.getElementById('platforms').scrollIntoView({behavior:'smooth',block:'start'})}));
+
+    let burstLast=0;
+    function spawnBurstCluster(container,x,y,power=1){
+      const now=Date.now(); if(now-burstLast<38) return; burstLast=now;
+      const dotCount=Math.floor(10*power);
+      const lineCount=Math.floor(7*power);
+      for(let i=0;i<dotCount;i++){
+        const p=document.createElement('span'); p.className='burst';
+        const angle=Math.random()*Math.PI*2, distance=36+Math.random()*120*power;
+        p.style.setProperty('--x',x+'px'); p.style.setProperty('--y',y+'px');
+        p.style.setProperty('--tx',Math.cos(angle)*distance+'px'); p.style.setProperty('--ty',Math.sin(angle)*distance+'px');
+        const size=4+Math.random()*8*power; p.style.width=size+'px'; p.style.height=size+'px';
+        container.appendChild(p); setTimeout(()=>p.remove(),900);
+      }
+      for(let i=0;i<lineCount;i++){
+        const s=document.createElement('span'); s.className='spark-line';
+        const angle=Math.random()*Math.PI*2, distance=45+Math.random()*150*power;
+        s.style.setProperty('--x',x+'px'); s.style.setProperty('--y',y+'px');
+        s.style.setProperty('--tx',Math.cos(angle)*distance+'px'); s.style.setProperty('--ty',Math.sin(angle)*distance+'px');
+        s.style.setProperty('--rot', (angle*180/Math.PI)+'deg');
+        s.style.width=(24+Math.random()*34*power)+'px';
+        container.appendChild(s); setTimeout(()=>s.remove(),860);
+      }
+      const ring=document.createElement('span'); ring.className='shock-ring';
+      ring.style.setProperty('--x',x+'px'); ring.style.setProperty('--y',y+'px');
+      container.appendChild(ring); setTimeout(()=>ring.remove(),760);
+    }
+    slides.forEach(slide=>{
+      const layer=slide.querySelector('.burst-layer');
+      slide.addEventListener('mousemove',e=>{const r=slide.getBoundingClientRect(); spawnBurstCluster(layer,e.clientX-r.left,e.clientY-r.top,.8)});
+      slide.addEventListener('mouseenter',e=>{const r=slide.getBoundingClientRect(); spawnBurstCluster(layer,r.width*.5,r.height*.56,1.8)});
+      slide.addEventListener('click',e=>{const r=slide.getBoundingClientRect(); spawnBurstCluster(layer,e.clientX-r.left,e.clientY-r.top,2.2)});
+    });
+
+    function bindTilt(){
+      document.querySelectorAll('.tilt-card').forEach(card=>{
+        if(card.dataset.tiltBound) return; card.dataset.tiltBound='1';
+        card.addEventListener('mousemove',e=>{ if(window.innerWidth<900) return; const rect=card.getBoundingClientRect(); const x=e.clientX-rect.left; const y=e.clientY-rect.top; const rx=((y/rect.height)-.5)*-8; const ry=((x/rect.width)-.5)*10; card.style.transform=`perspective(1100px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`; });
+        card.addEventListener('mouseleave',()=>{card.style.transform=''});
+      });
+    }
+    bindTilt();
+
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting) entry.target.classList.add('in')}),{threshold:.16});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+    const mouseGlow=document.getElementById('mouseGlow');
+    window.addEventListener('pointermove',e=>{mouseGlow.style.left=e.clientX+'px';mouseGlow.style.top=e.clientY+'px'; pointer.x=e.clientX; pointer.y=e.clientY;});
+
+    const canvas=document.getElementById('fxCanvas'); const ctx=canvas.getContext('2d'); let particles=[]; let pointer={x:window.innerWidth*.5,y:window.innerHeight*.35};
+    function resizeCanvas(){canvas.width=window.innerWidth*window.devicePixelRatio;canvas.height=window.innerHeight*window.devicePixelRatio;canvas.style.width=window.innerWidth+'px';canvas.style.height=window.innerHeight+'px';ctx.setTransform(window.devicePixelRatio,0,0,window.devicePixelRatio,0,0); const count=Math.max(20,Math.min(44,Math.floor(window.innerWidth/36))); particles=Array.from({length:count},()=>({x:Math.random()*window.innerWidth,y:Math.random()*window.innerHeight,vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4,r:Math.random()*2.2+.8}))}
+    function drawFx(){ctx.clearRect(0,0,window.innerWidth,window.innerHeight); for(const p of particles){p.x+=p.vx;p.y+=p.vy;if(p.x<-10)p.x=window.innerWidth+10;if(p.x>window.innerWidth+10)p.x=-10;if(p.y<-10)p.y=window.innerHeight+10;if(p.y>window.innerHeight+10)p.y=-10; const dx=pointer.x-p.x,dy=pointer.y-p.y,dist=Math.hypot(dx,dy); if(dist<140){p.x-=dx*.0025;p.y-=dy*.0025} ctx.beginPath(); ctx.fillStyle='rgba(216,170,85,.72)'; ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fill();} for(let i=0;i<particles.length;i++){for(let j=i+1;j<particles.length;j++){const a=particles[i],b=particles[j],d=Math.hypot(a.x-b.x,a.y-b.y); if(d<120){ctx.beginPath();ctx.strokeStyle=`rgba(216,170,85,${(1-d/120)*0.14})`;ctx.lineWidth=1;ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}} requestAnimationFrame(drawFx)}
+    window.addEventListener('resize',resizeCanvas); resizeCanvas(); drawFx();
+  </script>
+</body>
+</html>
